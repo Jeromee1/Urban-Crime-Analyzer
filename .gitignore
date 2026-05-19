@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node / Build
+node_modules
+dist
+dist-ssr
+
+# Python cache and notebook cache files
+__pycache__/
+*.pyc
+Backend/notebooks/cache/
+
+# CSV files
+Backend/data/processed/cleaned_crime_data.csv
+Backend/data/raw/
+
+# Models
+Backend/models/
+
+# env
+UI/crime-dashboard/.env
+Backend/.env

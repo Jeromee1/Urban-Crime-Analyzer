@@ -1,0 +1,16 @@
+.fade-up {
+  opacity: 0 !important;
+  transform: translateY(30px) !important;
+  transition: opacity 0.6s ease, transform 0.6s ease !important;
+}
+
+.fade-up.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.card {
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  border-color: rgb(123, 159, 157);
+}
